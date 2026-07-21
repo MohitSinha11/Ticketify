@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "keycloak-js": "^26.2.4",
+    "tailwindcss": "^4.3.3"
+  }
+}
