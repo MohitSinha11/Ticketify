@@ -198,8 +198,8 @@ function MyTickets() {
 
       {/* Interactive Wallet Ticket Modal */}
       {selectedTicket && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-6 backdrop-blur-sm">
-          <div className="relative w-full max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-6 backdrop-blur-sm overflow-y-auto">
+          <div className="relative my-auto w-full max-w-md overflow-hidden rounded-3xl border border-slate-800 bg-slate-900 shadow-2xl">
             {/* Top Close Button */}
             <button
               onClick={handleCloseModal}
