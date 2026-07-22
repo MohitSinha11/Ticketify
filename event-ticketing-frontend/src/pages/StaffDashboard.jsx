@@ -107,9 +107,9 @@ function StaffDashboard() {
                     </button>
                     <button
                       type="button"
-                      onClick={() => setMethod("QR_CODE")}
+                      onClick={() => setMethod("QR_SCAN")}
                       className={`rounded-xl border py-3.5 text-sm font-bold transition ${
-                        method === "QR_CODE"
+                        method === "QR_SCAN"
                           ? "border-indigo-500 bg-indigo-500/10 text-indigo-400 font-extrabold"
                           : "border-slate-800 bg-slate-950 text-slate-400 hover:text-slate-200"
                       }`}

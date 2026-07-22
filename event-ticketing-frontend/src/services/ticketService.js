@@ -25,5 +25,5 @@ export const getTicketQrCodeBlobUrl = async (ticketId) => {
 export const validateTicket = (ticketId, method = "MANUAL") =>
   api.post("/ticket-validations", {
     id: ticketId,
-    method: method, // MANUAL or QR_CODE
+    method: method, // MANUAL or QR_SCAN
   });
